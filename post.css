@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Oswald:wght@500&family=Roboto+Slab&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    color: red;
+}
+@font-face {
+    font-family: myFont;
+    src:url(LeagueSpartan-Bold.otf)
+}
+body {
+    background-color: #F2E7D5;
+
+    height: 1000px;
+}
+.menu {
+    font-family:myFont;
+    background-color:#F2E7D5;
+}
+.name {
+    margin-right: 300px;
+}
+.menu ul {
+    padding-left:40px;
+    margin-top: 10px;
+}
+
+.menu li {
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    color: #212121;
+}
+.menu li a {
+    display:inline-block;
+    text-decoration: none;
+    position: relative;
+
+
+    font-weight: lighter;
+    border-radius: 20px;
+    background-color: #F2E7D5;
+    margin-top: 15px;
+    padding: 0px 25px;
+
+    color: #212428;
+
+
+
+
+}
+.underline::after{
+    content:"";
+    display:block;
+    margin-left: 20px;
+    width:0;
+    height:2px;
+    background: #4c574a;
+    transition: width .5s;
+}
+.underline:hover::after {
+    width: 70%;
+    transition: width .5s
+}
+.img {
+    box-shadow: 15px 15px;
+    border-color: black;
+    border-width:2px;
+    height: 300px;
+    color: #7b6c51;
+}
+
+.heading {
+    line-height: 0;
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+
+
+}
+.two {
+    width: 100%;
+    height: 1800px;
+}
+.heading h1 {
+    font-family: myFont;
+
+    font-size: 100px;
+    font-weight:bold;
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 900px;
+    height: 100px;
+
+
+    color:#090a0b;
+
+}
+.container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 130px;
+}
+.posts {
+    position:relative;
+    margin: 40px 15px;
+    display:flex;
+    font-family: Roboto Slab;
+    color: #23262a;
+    box-shadow: 5px 6px 8px #8D7B68;
+
+
+}
+.writter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+}
+.writter img {
+    border-radius: 50%;
+}
+.post-title{
+    font-size: 40px;
+
+}
+.content {
+    margin: 10px 60px;
+    width: 500px;
+}
+.button {
+
+    display: flex;
+    margin-top:20px;
+    border: solid;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}
+.button a {
+    text-decoration: none;
+    color: #23262a;
+
+}
+.button:hover {
+
+    border-color: #495f40;
+    color: #495f40;
+}
+.button a:hover {
+
+    color: #495f40;
+}
+.three{
+    position:relative;
+    width: 100%;
+    height: 500px;
+    background-color:  #14171a;
+    margin-top: 2600px;
+
+
+}
+.placeholder{
+
+    margin-top: 100px;
+    color: transparent;
+}
+.Contact {
+    font-family: monospace;
+}
+.underline1 {
+    margin-top: 15px; 
+    margin-left: 50px; 
+    font-size: 80px; 
+    width: 950px;
+    color:white; 
+    font-family: Roboto Slab; 
+    text-decoration: none;
+}
+.underline1:hover {
+    color: #a99d83;
+}
+.underline1::after{
+    content:"";
+    display:block;
+    margin-left: 50px;
+    width:0;
+    height:4px;
+    background: #4c574a;
+    transition: width .5s;
+}
+.underline1:hover::after {
+    width: 70%;
+
+    transition: width .5s
+}

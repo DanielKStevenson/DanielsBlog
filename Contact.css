@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Oswald:wght@500&family=Roboto+Slab&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    color: red;
+}
+@font-face {
+    font-family: myFont;
+    src:url(LeagueSpartan-Bold.otf);
+
+}
+body {
+    background-color:  #1a1f1e;
+
+    height: 1000px;
+}
+.menu {
+    font-family:myFont;
+    background-color: #1a1f1e;
+}
+.name {
+    margin-right: 300px;
+    color: white;
+}
+.menu ul {
+    padding-left:40px;
+    margin-top: 10px;
+}
+
+.menu li {
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    color:white;
+}
+.menu li a {
+    display:inline-block;
+    text-decoration: none;
+    position: relative;
+
+
+    font-weight: lighter;
+    border-radius: 20px;
+    background-color:  #1a1f1e;
+    margin-top: 15px;
+    padding: 0px 25px;
+
+    color: white;
+
+
+
+
+}
+.underline::after{
+    content:"";
+    display:block;
+    margin-left: 20px;
+    width:0;
+    height:2px;
+    background: #4c574a;
+    transition: width .5s;
+}
+.underline:hover::after {
+    width: 70%;
+    transition: width .5s
+}
+.p {
+    margin-top: 30px;
+
+
+    font-size: 15px;
+    color: rgb(160, 168, 168) ;
+    font-family: Roboto Slab;
+}
+.Portfolio h1{
+    font-weight: bold;
+    color: white;
+    font-family:Roboto Slab;
+}
+.Portfolio{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.underline1 {
+    width: 30%;
+    font-family: Roboto Slab; 
+}
+.underline1:hover {
+    color: #a99d83;
+}
+.underline1::after{
+    content:"";
+    display:block;
+    margin-left:50px;
+    width:0;
+    height:2px;
+    background: #4c574a;
+    transition: width .5s;
+}
+
+.underline1:hover::after {
+    width: 40%;
+
+    transition: width .5s
+}
+.two {
+    display: flex;
+}
